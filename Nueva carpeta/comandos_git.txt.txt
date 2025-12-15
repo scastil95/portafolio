@@ -1,0 +1,21 @@
+Comandos básicos de Git
+
+git --version
+Definición: Muestra la versión instalada de Git.
+Ejemplo: git --version
+
+git init
+Definición: Inicializa un repositorio Git en la carpeta actual.
+Ejemplo: git init
+
+git add
+Definición: Agrega cambios al área de preparación (staging).
+Ejemplo: git add .
+
+git commit
+Definición: Registra los cambios con un mensaje descriptivo.
+Ejemplo: git commit -m "Primer commit"
+
+git status
+Definición: Muestra el estado del repositorio.
+Ejemplo: git status

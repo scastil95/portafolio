@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Restaurante</title>
+</head>
+
+<body>
+
+    <header class="Banner">
+        <section class="barra-navegadora">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+                            class="d-inline-block align-text-top">
+                        Bootstrap
+                    </a>
+                </div>
+            </nav>
+        </section>
+
+        <section class="bannerHero container py-5 text-center">
+            <div class="py-lg-5">
+                <p>¡Bienvenidos al restaurante ratatouille!</p>
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="justify-content-center text-center">Restaurante chefsito</h1>
+                    <p>
+                        Este restaurante histórico, fundado en 1582, ofrece vistas panorámicas del río Sena
+                        y la catedral de Notre Dame
+                    </p>
+                    <button type="button" class="btn btn-lg btn-outline-light" data-bs-toggle="popover"
+                        data-bs-title="Popover title"
+                        data-bs-content="And here’s some amazing content. It’s very engaging. Right?">Click to toggle
+                        popover</button>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <section class="container p-5">
+            <div class="menu text-center">
+                <p class=" ">Disfruta nuestros sabores</p>
+                <h2 class="mb-5 display-5">Nuestros platos</h2>
+            </div>
+            <div class="cartas row gap-3 justify-content-evenly">
+                <!-- carta 1 -->
+                <div class="carta-1 card col-10 col-sm-10 col-md-5 col-lg-3 p-0">
+                    <img src="assets/img/Receta-de-ratatouille-clasico-frances.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#carta-modal-1">
+                            Launch demo modal
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal-tarjeta-1">
+                        <div class="modal fade" id="carta-modal-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal1Tarjeta modal-content">
+                                    <div class="modal-body p-5 m-5">
+                                        <ul>
+                                            <h4>Ingredientes</h4>
+                                            <li>350 g de Tomate frito estilo casero</li>
+                                            <li>300 g de calabacíncm</li>
+                                            <li>550 g de berenjena</li>
+                                            <li>600 g de tomate</li>
+                                            <li>200 g de cebolla</li>
+                                            <li>5 dientes de ajo</li>
+                                            <li>5 dientes de ajoorégano al gusto</li>
+                                            <li>sal</li>
+                                            <li>Pimienta negra molida</li>
+                                            <li>Romero fresco</li>
+                                            <li>2 cucharada de aceite de oliva</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!------------>
+
+                <div class="carta-2 card col-10 col-sm-10 col-md-5 col-lg-3 p-0">
+                    <img src="assets/img/Receta-de-ratatouille-clasico-frances.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Launch demo modal
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal-tarjeta-2">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal1Tarjeta modal-content">
+                                    <div class="modal-body p-5 m-5">
+                                        <ul>
+                                            <h4>Ingredientes</h4>
+                                            <li>350 g de Tomate frito estilo casero</li>
+                                            <li>300 g de calabacíncm</li>
+                                            <li>550 g de berenjena</li>
+                                            <li>600 g de tomate</li>
+                                            <li>200 g de cebolla</li>
+                                            <li>5 dientes de ajo</li>
+                                            <li>5 dientes de ajoorégano al gusto</li>
+                                            <li>sal</li>
+                                            <li>Pimienta negra molida</li>
+                                            <li>Romero fresco</li>
+                                            <li>2 cucharada de aceite de oliva</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!------------>
+
+                <div class="carta-3 card col-10 col-sm-10 col-md-5 col-lg-3 p-0">
+                    <img src="assets/img/Receta-de-ratatouille-clasico-frances.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Launch demo modal
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal-tarjeta-3">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal1Tarjeta modal-content">
+                                    <div class="modal-body p-5 m-5">
+                                        <ul>
+                                            <h4>Ingredientes</h4>
+                                            <li>350 g de Tomate frito estilo casero</li>
+                                            <li>300 g de calabacíncm</li>
+                                            <li>550 g de berenjena</li>
+                                            <li>600 g de tomate</li>
+                                            <li>200 g de cebolla</li>
+                                            <li>5 dientes de ajo</li>
+                                            <li>5 dientes de ajoorégano al gusto</li>
+                                            <li>sal</li>
+                                            <li>Pimienta negra molida</li>
+                                            <li>Romero fresco</li>
+                                            <li>2 cucharada de aceite de oliva</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------>
+
+                <div class="carta-4 card col-10 col-sm-10 col-md-5 col-lg-3 p-0">
+                    <img src="assets/img/Receta-de-ratatouille-clasico-frances.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Launch demo modal
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal-tarjeta-4">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-body p-5 m-5">
+                                        <ul>
+                                            <h4>Ingredientes</h4>
+                                            <li>350 g de Tomate frito estilo casero</li>
+                                            <li>300 g de calabacíncm</li>
+                                            <li>550 g de berenjena</li>
+                                            <li>600 g de tomate</li>
+                                            <li>200 g de cebolla</li>
+                                            <li>5 dientes de ajo</li>
+                                            <li>5 dientes de ajoorégano al gusto</li>
+                                            <li>sal</li>
+                                            <li>Pimienta negra molida</li>
+                                            <li>Romero fresco</li>
+                                            <li>2 cucharada de aceite de oliva</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------>
+
+                <div class="carta-5 card col-10 col-sm-10 col-md-5 col-lg-3 p-0">
+                    <img src="assets/img/Receta-de-ratatouille-clasico-frances.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Launch demo modal
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal-tarjeta-5">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-body p-5 m-5">
+                                        <ul>
+                                            <h4>Ingredientes</h4>
+                                            <li>350 g de Tomate frito estilo casero</li>
+                                            <li>300 g de calabacíncm</li>
+                                            <li>550 g de berenjena</li>
+                                            <li>600 g de tomate</li>
+                                            <li>200 g de cebolla</li>
+                                            <li>5 dientes de ajo</li>
+                                            <li>5 dientes de ajoorégano al gusto</li>
+                                            <li>sal</li>
+                                            <li>Pimienta negra molida</li>
+                                            <li>Romero fresco</li>
+                                            <li>2 cucharada de aceite de oliva</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------>
+
+                <div class="carta-6 card col-10 col-sm-10 col-md-5 col-lg-3 p-0">
+                    <img src="assets/img/Receta-de-ratatouille-clasico-frances.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Launch demo modal
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal-tarjeta-6">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-body p-5 m-5">
+                                        <ul>
+                                            <h4>Ingredientes</h4>
+                                            <li>350 g de Tomate frito estilo casero</li>
+                                            <li>300 g de calabacíncm</li>
+                                            <li>550 g de berenjena</li>
+                                            <li>600 g de tomate</li>
+                                            <li>200 g de cebolla</li>
+                                            <li>5 dientes de ajo</li>
+                                            <li>5 dientes de ajoorégano al gusto</li>
+                                            <li>sal</li>
+                                            <li>Pimienta negra molida</li>
+                                            <li>Romero fresco</li>
+                                            <li>2 cucharada de aceite de oliva</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------>
+
+            </div>
+        </section>
+
+        <section class="sobre-nosotros">
+            <div class="container text-center p-5">
+                <div class="row justify-content-evenly my-5">
+                    <div class="col col-sm-10 col-md-5 col-lg-4">
+                        <img src="./assets/img/chefsito-gesto.png" class="chefsito img-fluid" alt="chefsito-gesto"
+                            width="100%">
+                    </div>
+                    <div class="col col-sm-10 col-md-5 col-lg-4 my-5">
+                        <h2 id="">TITULO</h2>
+
+
+                        <div>
+                            <span>Lorem</span> <span>ipsum,</span> <span>dolor</span> <span>sit</span> <span>amet</span>
+                            <span>consectetur</span> <span>adipisicing</span> <span>elit.</span> <span>Similique</span>
+                            <span>quaerat</span> <span>eos</span> <span>unde</span> <span>in</span>
+                            <span>fugiat</span> <span>minus</span> <span>aspernatur</span> <span>nesciunt</span>
+                            <span>voluptatem</span> <span>reiciendis</span> <span>vero</span> <span>rerum</span>
+                            <span>quia</span> <span>eius</span> <span>porro,</span> <span>deleniti</span>
+                            <span>vel</span> <span>ut</span> <span>eveniet</span> <span>libero</span> <span>esse.</span>
+                            <span>Lorem</span> <span>ipsum</span> <span>dolor</span> <span>sit,</span> <span>amet</span>
+                            <span>consectetur</span> <span>adipisicing</span> <span>elit.</span>
+                            <span>Officiis</span> <span>veritatis</span> <span>porro</span> <span>eos</span>
+                            <span>eaque</span> <span>sunt</span> <span>sequi</span> <span>ducimus</span>
+                            <span>cumque</span> <span>velit,</span> <span>libero</span> <span>neque?</span>
+                            <span>Rerum</span> <span>iure</span>
+                            <span>eligendi</span> <span>veritatis</span> <span>non</span> <span>porro</span>
+                            <span>pariatur</span> <span>quo</span> <span>id</span> <span>nesciunt?</span>
+
+                        </div>
+                        <div class="tooltipJs col m-2">
+                            <button id="shower" type="button" class="btn btn-primary" data-bs-toggle="tooltip"
+                                data-bs-placement="top" data-bs-title="Increible tooltip">toca aqui</button>
+                            <button id="hider" type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                                data-bs-placement="top" data-bs-title="Increible tooltipx2">oculta aqui</button>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <section class="contactanos bg-contacto p-5">
+
+                <div class="container col-lg-6">
+                    <h2 class="text-center">Contáctanos</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="Nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="Nombre" aria-describedby="nombre">
+                            <div id="nombre" class="form-text">Nunca compartiremos tu información personal</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" cols="30" rows="5"></textarea>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">No soy un bot</label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                        </div>
+
+                    </form>
+                </div>
+
+
+
+            </section>
+
+            <section class=" bg-azulito text-white d-none d-lg-block">
+                <div class="container d-flex justify-content-between py-5">
+                    <h2 class="display-5 fw-medium">Medios de pago</h2>
+                    <div class="d-flex gap-5">
+                        <i class="fa-brands fa-cc-mastercard fa-4x"></i>
+                        <i class="fa-brands fa-cc-visa fa-4x"></i>
+                        <i class="fa-brands fa-cc-amex fa-4x"></i>
+                        <i class="fa-brands fa-paypal fa-4x"></i>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer class="bg-dark tet-white py-5">
+        <div class="container d-flex justify-content-between py-5">
+            <footer class="bg-dark text-white py-5">
+                <div class="container py-5">
+                    <div class="row justify-content-evenly justify-content-md-between">
+                        <div class="col-10 col-sm-10 col-md-6 mb-5 mb-md-0">
+                            <h5 class="mb-5 fs-1">Contacto y Ubicación</h5>
+                            <p><strong>Alfredo Linguini</strong></p>
+                            <p><i class="fa-solid fa-phone"></i> +56911111111</p>
+                            <p><i class="fa-solid fa-envelope"></i> alfredo.linguini@restaurantcito.cl</p>
+                            <p><i class="fa-solid fa-location-dot"></i> Calle Falsa 123</p>
+                        </div>
+                        <div class="col-10 col-sm-10 col-md-6 mb-5 mb-md-0">
+                            <h5 class="mb-5 fs-1">Desarrollado por Curso 0044</h5>
+                            <div class="d-flex justify-content-evenly">
+                                <p><i class="fa-brands fa-square-github fa-3x"></i></p>
+                                <p><i class="fa-brands fa-linkedin fa-3x"></i></p>
+                                <p><i class="fa-solid fa-envelope fa-3x"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script src="https://kit.fontawesome.com/8e107b04bf.js" crossorigin="anonymous"></script>
+    <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+
+</html>
