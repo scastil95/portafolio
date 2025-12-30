@@ -1,0 +1,18 @@
+@use "../utilities/variables" as *;
+
+body {
+  background-color: $color-fondo-oscuro;
+  color: $color-texto;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}

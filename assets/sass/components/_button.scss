@@ -1,0 +1,13 @@
+.btn {
+  @include button-pill;
+}
+
+.btn-primary {
+  background-color: $color-primary;
+  border: none;
+  color: #000;
+
+  &:hover {
+    background-color: darken($color-primary, 10%);
+  }
+}

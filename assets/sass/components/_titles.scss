@@ -1,0 +1,17 @@
+@use "../utilities/variables" as *;
+
+.titulo-principal {
+  color: $color-titulo;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.titulo-seccion {
+  color: $color-titulo;
+  margin-bottom: 2rem;
+}
+
+.titulo-card {
+  color: $color-titulo;
+  margin-top: 0.5rem;
+}

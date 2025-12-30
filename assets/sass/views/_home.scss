@@ -1,0 +1,68 @@
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* CTA CV */
+  .btn {
+    margin-bottom: 2rem;
+  }
+
+  /* Rol */
+  h1 {
+    font-size: $titulo-size-xl;
+    color: $titulo-color;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Nombre */
+  h2 {
+    font-size: $titulo-size-lg;
+    margin-bottom: 1rem;
+  }
+
+  /* Propuesta de valor */
+  p {
+    color: $parrafo-color;
+    max-width: 620px;
+    margin: 0 auto 2rem;
+  }
+
+  /* Botones sociales */
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.6rem 2rem;
+    border-radius: 2rem;
+  }
+
+  /* Íconos tecnologías */
+  i {
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+/* ========================= */
+/* SOBRE MÍ */
+/* ========================= */
+
+#sobre-mi {
+  text-align: center;
+
+  h2 {
+    color: $titulo-color;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    max-width: 600px;
+    margin: 0 auto 1rem;
+  }
+}

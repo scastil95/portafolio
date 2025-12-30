@@ -1,0 +1,13 @@
+@use "../utilities/variables" as *;
+
+.parrafo-principal {
+  color: $color-parrafo;
+  margin-bottom: 1.5rem;
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+.parrafo-card {
+  color: $color-parrafo;
+  margin-bottom: 1rem;
+}

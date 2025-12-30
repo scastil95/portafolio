@@ -1,0 +1,14 @@
+@use "../utilities/variables" as *;
+
+.section-padding {
+  padding: $padding-section 0;
+}
+
+.section-clara {
+  background-color: $color-fondo-claro;
+  color: #212529;
+}
+
+.section-oscura {
+  background-color: $color-fondo-oscuro;
+}
